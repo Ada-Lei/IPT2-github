@@ -6,6 +6,12 @@ public class Calc {
     public static int add(int a, int b) {
         return a + b;
     }
+
+        // Method for subtraction
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+    
     // Main method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
