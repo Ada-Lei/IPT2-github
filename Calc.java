@@ -2,6 +2,10 @@ import java.util.Scanner;
  
 public class Calc {
 
+    // Method for addition
+    public static int add(int a, int b) {
+        return a + b;
+    }
     // Main method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
