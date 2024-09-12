@@ -17,6 +17,16 @@ public class Calc {
         return a * b;
     }
 
+    // Method for division
+    public static double divide(int a, int b) {
+        if (b != 0) {
+            return (double) a / b;
+        } else {
+            System.out.println("Error: Division by zero");
+            return 0;
+        }
+    }
+
     // Main method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
