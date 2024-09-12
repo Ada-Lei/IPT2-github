@@ -11,7 +11,32 @@ public class Calc {
     public static int subtract(int a, int b) {
         return a - b;
     }
-    
+
+    // Method for multiplication
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    // Method for division
+    public static double divide(int a, int b) {
+        if (b != 0) {
+            return (double) a / b;
+        } else {
+            System.out.println("Error: Division by zero");
+            return 0;
+        }
+    }
+
+    // Method for modulus
+    public static int modulus(int a, int b) {
+        if (b != 0) {
+            return a % b;
+        } else {
+            System.out.println("Error: Division by zero in modulus");
+            return 0;
+        }
+    }
+
     // Main method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
